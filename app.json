@@ -2,7 +2,7 @@
   "expo": {
     "name": "expoApp",
     "slug": "expoApp",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -26,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "64fd6e4c-11b1-46f3-a5ea-d8b0bbbd30b3"
+      }
     }
   }
 }
